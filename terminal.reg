@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Open in Terminal]
+@="Open in Terminal"
+"Icon"="%SystemRoot%\\system32\\imageres.dll,-5324"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Open in Terminal\command]
+@="cmd.exe /k cd \"%V\""
